@@ -1,0 +1,30 @@
+2017-11-08 16:53:06.586 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 26174 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-08 16:53:06.587 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-08 16:53:09.300 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 23.046 seconds (JVM running for 38.83)
+2017-11-08 16:54:11.569 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 26179 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-08 16:54:11.570 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-08 16:54:13.984 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 22.683 seconds (JVM running for 38.324)
+2017-11-08 17:11:11.359 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 26250 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-08 17:11:11.361 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-08 17:11:14.330 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 23.218 seconds (JVM running for 38.838)
+2017-11-08 17:28:53.505 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 26330 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-08 17:28:53.506 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-08 17:28:56.038 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 22.789 seconds (JVM running for 38.437)
+2017-11-08 17:39:20.930 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 26364 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-08 17:39:20.931 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-08 17:39:23.512 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 22.873 seconds (JVM running for 38.496)
+2017-11-08 19:31:42.288 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 26957 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-08 19:31:42.289 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-08 19:31:44.831 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 22.793 seconds (JVM running for 38.483)
+2017-11-08 20:05:12.100 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 27010 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-08 20:05:12.101 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-08 20:05:14.407 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 22.554 seconds (JVM running for 38.191)
+2017-11-08 20:12:26.184 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 27024 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-08 20:12:26.185 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-08 20:12:29.169 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 23.268 seconds (JVM running for 38.927)
+2017-11-08 21:31:38.871 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 27594 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-08 21:31:38.872 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-08 21:31:41.282 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 22.677 seconds (JVM running for 38.295)
+2017-11-08 21:36:29.129 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 27612 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-08 21:36:29.129 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-08 21:36:31.494 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 22.619 seconds (JVM running for 38.234)

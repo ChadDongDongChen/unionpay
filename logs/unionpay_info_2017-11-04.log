@@ -1,0 +1,12 @@
+2017-11-04 16:51:23.913 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 18007 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-04 16:51:23.914 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-04 16:51:26.566 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 22.954 seconds (JVM running for 38.633)
+2017-11-04 17:55:50.320 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 18114 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-04 17:55:50.321 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-04 17:55:52.345 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 22.254 seconds (JVM running for 37.858)
+2017-11-04 17:58:08.846 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 18126 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-04 17:58:08.847 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-04 17:58:11.470 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 22.879 seconds (JVM running for 38.491)
+2017-11-04 18:00:09.350 [main] INFO  com.fshows.proxy.ProxyApplication - Starting ProxyApplication on caofangyideMacBook-Pro.local with PID 18133 (/Users/caofy/workspace_util/my-union-pay-test/target/classes started by caofy in /Users/caofy/workspace_util/my-union-pay-test)
+2017-11-04 18:00:09.351 [main] INFO  com.fshows.proxy.ProxyApplication - No active profile set, falling back to default profiles: default
+2017-11-04 18:00:11.840 [main] INFO  com.fshows.proxy.ProxyApplication - Started ProxyApplication in 22.752 seconds (JVM running for 38.401)
