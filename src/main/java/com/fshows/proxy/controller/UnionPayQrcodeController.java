@@ -1,10 +1,12 @@
 package com.fshows.proxy.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.fshows.proxy.sdk.AcpService;
 import com.fshows.proxy.sdk.DemoBase;
 import com.fshows.proxy.sdk.LogUtil;
 import com.fshows.proxy.sdk.SDKConfig;
 import com.fshows.proxy.util.DateUtil;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -31,8 +33,12 @@ public class UnionPayQrcodeController {
         String orderId = req.getParameter("orderId");
         String txnTime = req.getParameter("txnTime");
 
-        merId="WZPA0000FS0000"+num;
+
         orderId="cfyme20171105000001"+System.currentTimeMillis();
+
+        if(!merId.startsWith("777")){
+            merId="WZPA0000FS0000"+num;
+        }
 
         System.out.println("===============");
         System.out.println("========merId======="+merId);
@@ -66,7 +72,7 @@ public class UnionPayQrcodeController {
         contentData.put("txnAmt", txnAmt);                        //交易金额 单位为分，不能带小数点
         contentData.put("currencyCode", "156");                 //境内商户固定 156 人民币
 
-
+        contentData.put("reqReserved","曹方毅|cfyme|"+txnAmt);
 
 
 
@@ -114,6 +120,7 @@ public class UnionPayQrcodeController {
     public void test2(HttpServletRequest req, HttpServletResponse response) throws Exception {
 
         System.out.println("==========test2========");
+        String num = req.getParameter("num");
 
         String merId = req.getParameter("merId");
         String txnAmt = req.getParameter("txnAmt");
@@ -123,10 +130,13 @@ public class UnionPayQrcodeController {
         String   qrNo = req.getParameter("qrNo");
         String   termId = req.getParameter("termId");
 
-        merId="777290058110048";
-        merId="WZPA0000FS00001";
-        txnAmt="2";
         orderId="cfyme20171105000001"+System.currentTimeMillis();
+
+        if(!merId.startsWith("777")){
+            merId="WZPA0000FS0000"+num;
+        }
+
+        orderId="scan"+System.currentTimeMillis();
 
         //订单创建时间
         txnTime = DateUtil.getStringByMillis(System.currentTimeMillis(), "yyyyMMddHHmmss");
@@ -134,9 +144,6 @@ public class UnionPayQrcodeController {
         System.out.println("txtTime=" + txnTime);
 
         Map<String, String> contentData = new HashMap<String, String>();
-
-
-        SDKConfig.getConfig().loadPropertiesFromSrc(); //从classpath加载acp_sdk.properties文件
 
 
         /***银联全渠道系统，产品参数，除了encoding自行选择外其他不需修改***/
@@ -159,9 +166,10 @@ public class UnionPayQrcodeController {
 
 
         contentData.put("qrNo", qrNo);                   //C2B码,1-20位数字
-        contentData.put("termId", termId);             //终端号
 
-
+        if(StringUtils.isNoneBlank(termId)){
+            contentData.put("termId", termId);             //终端号
+        }
 
         contentData.put("backUrl", DemoBase.backUrl);
 
@@ -194,7 +202,9 @@ public class UnionPayQrcodeController {
         }
         String reqMessage = DemoBase.genHtmlResult(reqData);
         String rspMessage = DemoBase.genHtmlResult(rspData);
-        response.getWriter().write("请求报文:<br/>"+reqMessage+"<br/>" + "应答报文:</br>"+rspMessage+"");
+        response.getWriter().write("request:<br/>"+reqMessage+"<br/>" + "response:</br>"+rspMessage+"");
+
+        System.out.println(JSON.toJSONString(rspData));
 
     }
 

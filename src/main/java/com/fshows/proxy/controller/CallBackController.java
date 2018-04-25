@@ -1,5 +1,6 @@
 package com.fshows.proxy.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.fshows.proxy.sdk.*;
 import com.fshows.proxy.util.DateUtil;
 import org.slf4j.Logger;
@@ -18,7 +19,7 @@ public class CallBackController {
 
     private static final Logger logger = LoggerFactory.getLogger(CallBackController.class);
 
-    @RequestMapping("/callback")
+    @RequestMapping("/callback/unionpay")
     public void test1(HttpServletRequest request, HttpServletResponse response) throws Exception {
 
         System.out.println("==========callback========" + request.getQueryString());
@@ -56,6 +57,8 @@ public class CallBackController {
             System.out.println("999999999999");
             //验签失败
         }
+        
+        System.out.println(JSON.toJSONString(valideData));
 
     }
 
